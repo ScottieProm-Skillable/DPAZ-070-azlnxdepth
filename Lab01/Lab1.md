@@ -33,7 +33,7 @@ By the end of the lab, students will be able to:
 
 ### **Task 1 — Provision Azure Linux VM**
 
-1.  Open browser and navigate to +++<https://portal.azure.com>+++ and
+1.  Open browser and navigate to +++https://portal.azure.com+++ and
     sign in with Azure credentials.
 
 2.  Search for +++**Virtual Machines+++** and select it
@@ -48,7 +48,7 @@ By the end of the lab, students will be able to:
 
 Resource group : **ResourceGroup1**
 
-Virtual machine name : +++**vm-storefront-01+++**
+Virtual machine name : +++vm-storefront@lab.LabInstance.Id+++
 
 Region: **East US**
 
