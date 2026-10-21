@@ -69,7 +69,7 @@ After completing this lab, you will be able to:
 - Image: see all images-search Azure Linux and select Azure Linux
   4-select
 
-- Authentication Type: Password
+- Authentication Type: SSH public key
 
 - Key pair name : +++**vmKey5+++**
 
@@ -213,6 +213,8 @@ Protocol:TCP
 
 Action:Allow
 
+Name : +++lab5inbound+++
+
 Select:Add
 
 ![](./media/image20.png)
@@ -231,7 +233,7 @@ Select:Add
 
 ### Task 1: Create a Gallery
 
-1.  Search for +++**Azure Compute Gallery+++ and s**elect it.
+1.  Search for +++Azure Compute Gallery+++ and select it.
 
 ![](./media/image24.png)
 
