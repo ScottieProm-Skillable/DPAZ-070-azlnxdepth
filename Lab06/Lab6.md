@@ -360,13 +360,9 @@ Task 4: Build Container Image
 4.  Run below command set environment variable
 
 \`\`\`
-
 export RESOURCE_GROUP=ResourceGroup1
-
 export ACR_NAME=bankacr12345
-
 export ACR_NAME="bankacr12345"
-
 \`\`\`
 
 ![](./media/image48.png)
