@@ -361,7 +361,6 @@ Task 4: Build Container Image
 
 \`\`\`
 export RESOURCE_GROUP=ResourceGroup1
-export ACR_NAME=bankacr12345
 export ACR_NAME="bankacr12345"
 \`\`\`
 
