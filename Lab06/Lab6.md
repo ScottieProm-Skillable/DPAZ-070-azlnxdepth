@@ -73,7 +73,7 @@ After completing this lab, you will be able to:
 - Image: **See all image-\> Search Azure Linux and select Azure Linux
   4.- create**
 
-- Key Pair name : +++**myKey+++**
+- Key Pair name : +++myKey+++
 
 - **Review + Create**
 
@@ -95,8 +95,7 @@ After completing this lab, you will be able to:
 
 ![](./media/image9.png)
 
-7.  Wait for the deployment to complete and then click on **Go to
-    resource.**
+7.  Wait for the deployment to complete and then click on **Go toresource.**
 
 ![](./media/image10.png)
 
@@ -157,9 +156,9 @@ After completing this lab, you will be able to:
 
 1.  Open new instance of GitBash and run below command to create folder.
 
-**+++mkdir payment-api+++**
++++mkdir payment-api+++
 
-**+++cd payment-api+++**
++++cd payment-api+++
 
 +++pwd+++
 
@@ -219,11 +218,11 @@ After completing this lab, you will be able to:
 
 2.  Run below command
 
-+++pip3 install --user flask+++
-
-+++python -m pip show flask+++
-
-+++python3 app.py+++
+  +++pip3 install --user flask+++
+  
+  +++python -m pip show flask+++
+  
+  +++python3 app.py+++
 
 ![](./media/image25.png)
 
