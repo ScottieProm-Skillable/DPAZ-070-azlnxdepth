@@ -194,16 +194,14 @@ After completing this lab, you will be able to:
 
     `python3 app.py`
 
-   >[!Alert] If there is an error running the *python3 app.py* command, open the Command Palette (Ctrl+Shift+P), run Python: Select Interpreter, and choose Python 3.11.
-  +++pip3 install --user flask+++
+   >[!Alert] If there is an error running the *python3 app.py* command, open the Command Palette (Ctrl+Shift+P), run Python: Select Interpreter, and choose Python 3.11.  +++pip3 install --user flask+++
   
-  +++python -m pip show flask+++
+    +++python -m pip show flask+++
   
-  +++python3 app.py+++
+    +++python3 app.py+++
 
-    ![](https://raw.githubusercontent.com/technofocus-pte/azlnxdepth/refs/heads/main/Lab06/media/image25.png)
-
-    ![](https://raw.githubusercontent.com/technofocus-pte/azlnxdepth/refs/heads/main/Lab06/media/image26.png)
+     ![](https://raw.githubusercontent.com/technofocus-pte/azlnxdepth/refs/heads/main/Lab06/media/image25.png)
+     ![](https://raw.githubusercontent.com/technofocus-pte/azlnxdepth/refs/heads/main/Lab06/media/image26.png)
 
 1. Click on the app link
 
@@ -223,7 +221,7 @@ After completing this lab, you will be able to:
 
     ![](https://raw.githubusercontent.com/technofocus-pte/azlnxdepth/refs/heads/main/Lab06/media/image30.png)
 
-1. Switch back first instance stop application: Ctrl+C
+2. Switch back first instance stop application: Ctrl+C
 
     ![](https://raw.githubusercontent.com/technofocus-pte/azlnxdepth/refs/heads/main/Lab06/media/image31.png)
 
