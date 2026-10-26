@@ -120,7 +120,7 @@ After completing this lab, you will be able to:
 
 1. Run below command to add secure node pool
 
-    `az aks nodepool add --resource-group $RESOURCE_GROUP --cluster-name $CLUSTER_NAME --name osgpool --node-count 3 --os-sku AzureLinuxOSGuard --node-osdisk-type Managed --enable-fips-image --enable-secure-boot --enable-vtpm`
+    +++az aks nodepool add --resource-group $RESOURCE_GROUP --cluster-name $CLUSTER_NAME --name osgpool --node-count 3 --os-sku AzureLinuxOSGuard --node-osdisk-type Managed --enable-fips-image --enable-secure-boot --enable-vtpm+++
 
     ![](https://raw.githubusercontent.com/technofocus-pte/azlnxdepth/refs/heads/main/Lab07/media/image13.png)
 
