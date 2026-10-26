@@ -140,15 +140,9 @@ After completing this lab, you will be able to:
 
 1. Open new instance of GitBash and run below command to create folder.
 
-    `mkdir payment-api`
-
-    `cd payment-api`
-
+    +++mkdir payment-api+++
+    +++cd payment-api+++
     `pwd`
-+++mkdir payment-api+++
-
-+++cd payment-api+++
-
     ![](https://raw.githubusercontent.com/technofocus-pte/azlnxdepth/refs/heads/main/Lab06/media/image20.png)
 
 1. in Visual Studio Code, Click on File- \> Open Folder and open the **payment-api folder**. Enable the checkbox **trust the authors**, select **yes, i trust the authors**.
