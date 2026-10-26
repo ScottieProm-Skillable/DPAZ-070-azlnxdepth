@@ -343,11 +343,7 @@ Build this portion on the machine where Docker is available.
 
     ![](https://raw.githubusercontent.com/technofocus-pte/azlnxdepth/refs/heads/main/Lab06/media/image48.png)
 
-1. Run `az login` and select Work/School account. Use your cloud slice credentials to login, inside the pop up window. 
-\`\`\`
-export RESOURCE_GROUP=ResourceGroup1
-export ACR_NAME="bankacr12345"
-\`\`\`
+1. Run `az login` and select Work/School account. Use your cloud slice credentials to login, inside the pop up window. Open a browser https://login.microsoft.com/device and enter the code to authenticate and sign in with your Azure credentails.
 
     - username: +++@lab.CloudPortalCredential(User1).Username+++
     - TAP: +++@lab.CloudPortalCredential(User1).AccessToken+++
@@ -531,7 +527,7 @@ export ACR_NAME="bankacr12345"
 
     `kubectl get svc`
 
-1. Update the url and run it in browser -http://*{external-ip}*/payment
+1. Update the url and run it in browser - +++http://{external-ip}/payment+++
 
 1. Run below command to enable monitoring:
 
