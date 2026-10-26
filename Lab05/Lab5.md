@@ -34,6 +34,39 @@ After completing this lab, you will be able to:
 ### Task 1: Create an Azure Linux Virtual Machine
 
 1. Sign in to the Azure portal - +++https://portal.azure.com+++ and sign in with your Azure credentials.
+1.  Sign in to the Azure portal- +++<https://porta.azure.com>+++ and
+    sign in with your Azure credentials.
+
+&nbsp;
+
+3.  Select Virtual Machines tile .Select: **Create \> Virtual Machine**
+
+> ![](./media/image1.png)
+
+4.  Configure the VM using the following settings:
+
+- Resource Group:ResourceGroup1
+
+- Virtual Machine Name: +++**fleettrackervm+++**
+
+- Region: Japan East
+
+- Availability options : No infrastructure redundancy required
+
+- Security type : Standard
+
+- Image: see all images-search Azure Linux and select Azure Linux
+  4-select
+
+- Authentication Type: SSH public key
+
+- Key pair name : +++**vmKey5+++**
+
+> Select **Review + Create**.
+
+5.  Select **Create**.
+
+![](./media/image2.png)
 
 1. Select Virtual Machines tile. Select: **Create \> Virtual Machine**
 
@@ -179,6 +212,9 @@ After completing this lab, you will be able to:
     Select: Add
 
     ![](https://raw.githubusercontent.com/technofocus-pte/azlnxdepth/refs/heads/main/Lab05/media/image20.png)
+Name : +++lab5inbound+++
+
+Select:Add
 
     ![](https://raw.githubusercontent.com/technofocus-pte/azlnxdepth/refs/heads/main/Lab05/media/image21.png)
 
@@ -196,6 +232,7 @@ After completing this lab, you will be able to:
 ### Task 1: Create a Gallery
 
 1. Search for +++Azure Compute Gallery+++ and select it.
+1.  Search for +++Azure Compute Gallery+++ and select it.
 
     ![](https://raw.githubusercontent.com/technofocus-pte/azlnxdepth/refs/heads/main/Lab05/media/image24.png)
 

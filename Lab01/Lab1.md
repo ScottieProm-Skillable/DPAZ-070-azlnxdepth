@@ -16,6 +16,12 @@ By the end of the lab, students will be able to:
 - Publish an application through Azure networking.
 - Validate a running workload hosted on Azure Linux.
 
+### **Task 1 — Provision Azure Linux VM**
+
+1.  Open browser and navigate to +++https://portal.azure.com+++ and
+    sign in with Azure credentials.
+
+2.  Search for +++**Virtual Machines+++** and select it
 
 ### Task 1 - Provision Azure Linux VM
 
@@ -28,6 +34,7 @@ By the end of the lab, students will be able to:
 1. Click on Create and select **Virtual machine.**
 
     ![](https://raw.githubusercontent.com/technofocus-pte/azlnxdepth/refs/heads/main/Lab01/media/image2.png)
+Virtual machine name : +++vm-storefront@lab.LabInstance.Id+++
 
 1. Select below values
 

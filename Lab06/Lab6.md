@@ -67,6 +67,7 @@ After completing this lab, you will be able to:
     ![](https://raw.githubusercontent.com/technofocus-pte/azlnxdepth/refs/heads/main/Lab06/media/image6.png)
 
     ![](https://raw.githubusercontent.com/technofocus-pte/azlnxdepth/refs/heads/main/Lab06/media/image7.png)
+- Key Pair name : +++myKey+++
 
 
 1. After the validation passed, click on **Create**.
@@ -87,6 +88,7 @@ After completing this lab, you will be able to:
 
     ![](https://raw.githubusercontent.com/technofocus-pte/azlnxdepth/refs/heads/main/Lab06/media/image12.png)
 
+7.  Wait for the deployment to complete and then click on **Go toresource.**
 
 ### Task 2: Connect to VM
 
@@ -143,6 +145,9 @@ After completing this lab, you will be able to:
     `cd payment-api`
 
     `pwd`
++++mkdir payment-api+++
+
++++cd payment-api+++
 
     ![](https://raw.githubusercontent.com/technofocus-pte/azlnxdepth/refs/heads/main/Lab06/media/image20.png)
 
@@ -195,6 +200,11 @@ After completing this lab, you will be able to:
     `python3 app.py`
 
    >[!Alert] If there is an error running the *python3 app.py* command, open the Command Palette (Ctrl+Shift+P), run Python: Select Interpreter, and choose Python 3.11.
+  +++pip3 install --user flask+++
+  
+  +++python -m pip show flask+++
+  
+  +++python3 app.py+++
 
     ![](https://raw.githubusercontent.com/technofocus-pte/azlnxdepth/refs/heads/main/Lab06/media/image25.png)
 
@@ -341,6 +351,10 @@ Build this portion on the machine where Docker is available.
     ![](https://raw.githubusercontent.com/technofocus-pte/azlnxdepth/refs/heads/main/Lab06/media/image48.png)
 
 1. Run `az login` and select Work/School account. Use your cloud slice credentials to login, inside the pop up window. 
+\`\`\`
+export RESOURCE_GROUP=ResourceGroup1
+export ACR_NAME="bankacr12345"
+\`\`\`
 
     - username: +++@lab.CloudPortalCredential(User1).Username+++
     - TAP: +++@lab.CloudPortalCredential(User1).AccessToken+++
