@@ -40,6 +40,7 @@ After completing this lab, you will be able to:
     - Region: @lab.CloudResourceGroup(ResourceGroup1).Location
     - Availability options : No infrastructure redundancy required
     - Security type : Standard
+    - Size: Standard D2s v3
     - Image : See all images-\> Search `Azure linux` -\> Select Azure linux
 
     - Key pair name : `manufacturingvm_key`
