@@ -49,7 +49,7 @@ After completing this lab, you will be able to:
 
 1. Run below command to create Azure Linux AKS Cluster
 
-    `az aks create --resource-group $RESOURCE_GROUP --name $CLUSTER_NAME --os-sku AzureLinux --node-count 3 --generate-ssh-keys`
+    `az aks create -g $RESOURCE_GROUP -n $CLUSTER_NAME --os-sku AzureLinux --node-count 3 --node-vm-size Standard_D4ds_v5 --tier free --generate-ssh-keys`
 
     ![](https://raw.githubusercontent.com/technofocus-pte/azlnxdepth/refs/heads/main/Lab04/media/image3.png)
 
@@ -93,7 +93,7 @@ After completing this lab, you will be able to:
 
 1. Run below command to create additional node pool
 
-    `az aks nodepool add --resource-group $RESOURCE_GROUP --cluster-name $CLUSTER_NAME --name mediapool --node-count 3 --os-sku AzureLinux`
+    `az aks nodepool add --resource-group $RESOURCE_GROUP --cluster-name $CLUSTER_NAME --name mediapool --node-count 3 --os-sku AzureLinux --node-vm-size Standard_D4ds_v5`
 
     ![](https://raw.githubusercontent.com/technofocus-pte/azlnxdepth/refs/heads/main/Lab04/media/image9.png)
 
