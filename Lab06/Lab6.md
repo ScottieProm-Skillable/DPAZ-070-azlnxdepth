@@ -414,7 +414,7 @@ Build this portion on the machine where Docker is available.
     export RESOURCE_GROUP=ResourceGroup1
     ```
 
-    `az aks create --resource-group $RESOURCE_GROUP --name bankaclcluster --os-sku AzureLinux --node-count 3 --generate-ssh-keys`
+    `az aks create -g $RESOURCE_GROUP -n bankaclcluster --os-sku AzureLinux --node-count 3 --node-vm-size Standard_D4ds_v5 --tier free --generate-ssh-keys`
 
     ![](https://raw.githubusercontent.com/technofocus-pte/azlnxdepth/refs/heads/main/Lab06/media/image58.png)
 
@@ -458,7 +458,7 @@ Build this portion on the machine where Docker is available.
 
 1. **Run below command to add nodepool**
 
-    `az aks nodepool add --resource-group $RESOURCE_GROUP --cluster-name bankaclcluster --name securepool --node-count 3 --os-sku AzureLinux`
+    `az aks nodepool add -g $RESOURCE_GROUP --cluster-name bankaclcluster -n securepool --node-vm-size Standard_D4ds_v5 --node-count 1`
 
     ![](https://raw.githubusercontent.com/technofocus-pte/azlnxdepth/refs/heads/main/Lab06/media/image68.png)
 
