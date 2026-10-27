@@ -48,7 +48,7 @@ After completing this lab, you will be able to:
 
 1. Run below command to create Azure Linux VM
 
-    `az vm create --resource-group $RESOURCE_GROUP --name $VM_NAME --image microsoftazurelinux:azurelinux-4:4:latest --security-type Standard --admin-username azureuser --generate-ssh-keys`
+    `az vm create --resource-group $RESOURCE_GROUP --name $VM_NAME --image microsoftazurelinux:azurelinux-4:4:latest --security-type Standard --size Standard_D4ads_v5 --admin-username azureuser --generate-ssh-keys`
 
     ![](https://raw.githubusercontent.com/technofocus-pte/azlnxdepth/refs/heads/main/Lab08/media/image4.png)
 
