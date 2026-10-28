@@ -169,12 +169,6 @@ After completing this lab, you will be able to:
 
     ![](https://raw.githubusercontent.com/technofocus-pte/azlnxdepth/refs/heads/main/Lab09/media/image26.png)
 
-1. Review system messages. Press Ctrl + C after review to stop the log messages.
-
-    `sudo tail -f /var/log/messages`
-
-    ![](https://raw.githubusercontent.com/technofocus-pte/azlnxdepth/refs/heads/main/Lab09/media/image27.png)
-
 
 ## Exercise 5: Configure Log Retention Policy
 
