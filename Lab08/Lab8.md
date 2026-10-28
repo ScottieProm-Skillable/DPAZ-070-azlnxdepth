@@ -1,3 +1,5 @@
+# Lab 8- Automate Azure Linux Compliance with Azure Policy
+
 ## Scenario
 
 Northwind Government Agency manages Azure Linux virtual machines that support citizen-service applications.
