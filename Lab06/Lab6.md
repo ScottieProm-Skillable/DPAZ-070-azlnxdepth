@@ -452,17 +452,8 @@ Build this portion on the machine where Docker is available.
 
     ![](https://raw.githubusercontent.com/technofocus-pte/azlnxdepth/refs/heads/main/Lab06/media/image67.png)
 
-## Exercise 8: Add Azure Container Linux Node Pool
 
-### Task 1: Add node pool
-
-1. **Run below command to add nodepool**
-
-    `az aks nodepool add -g $RESOURCE_GROUP --cluster-name bankaclcluster -n securepool --node-vm-size Standard_D4ds_v5 --node-count 1`
-
-    ![](https://raw.githubusercontent.com/technofocus-pte/azlnxdepth/refs/heads/main/Lab06/media/image68.png)
-
-## Exercise 9: Deploy Payment Application
+## Exercise 8: Deploy Payment Application
 
 ### Task 1: Attach Registry
 
@@ -517,7 +508,7 @@ Build this portion on the machine where Docker is available.
 
     `kubectl get pods`
 
-## Exercise 10: Publish and Monitor the Secure Payment Platform
+## Exercise 9: Publish and Monitor the Secure Payment Platform
 
 1. Run the command to expose the service
 
